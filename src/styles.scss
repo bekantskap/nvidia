@@ -77,3 +77,25 @@ $link-font-color: #666666;
 // HERO END
 
 // PRODUCTCARD START
+
+.card-container {
+  width: 295px;
+  display: flex;
+
+  .card-image {
+    width: 295px;
+    height: 166px;
+  }
+}
+.info-container {
+  margin: 0 auto;
+  width: 60%;
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+}
