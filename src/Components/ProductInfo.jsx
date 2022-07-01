@@ -34,6 +34,56 @@ export default function ProductInfo() {
           }
         />
       </section>
+      <h2>FÖRETAGSLÖSNINGAR</h2>
+      <p>Läs mer om våra företagslösningar</p>
+      <section className="info-cards">
+        <ProductCard
+          titlehead={'KÖP'}
+          img={laptop}
+          title={'NVIDIA rekommenderar'}
+          desc={'De bästa erbjudandena på bärbara datorer. Köp nu'}
+        />
+        <ProductCard
+          img={graphics}
+          title={'Grafikkort i GeForce RTX-serien'}
+          desc={'Nu är NVIDIA GeForce RTX 30-serien tillbaka i lager!'}
+        />
+        <ProductCard
+          img={geforce}
+          title={'GFN Thursday'}
+          desc={'Se vad du kan streama på GeForce NOW den här veckan'}
+        />
+        <ProductCard
+          img={studio}
+          title={'I NVIDIA STUDIO'}
+          desc={
+            'Vi firar fantastiska konstnärer, inspirerande konst och publicerar nyheter för innehållsskapare varje vecka.'
+          }
+        />
+        <ProductCard
+          titlehead={'KÖP'}
+          img={laptop}
+          title={'NVIDIA rekommenderar'}
+          desc={'De bästa erbjudandena på bärbara datorer. Köp nu'}
+        />
+        <ProductCard
+          img={graphics}
+          title={'Grafikkort i GeForce RTX-serien'}
+          desc={'Nu är NVIDIA GeForce RTX 30-serien tillbaka i lager!'}
+        />
+        <ProductCard
+          img={geforce}
+          title={'GFN Thursday'}
+          desc={'Se vad du kan streama på GeForce NOW den här veckan'}
+        />
+        <ProductCard
+          img={studio}
+          title={'I NVIDIA STUDIO'}
+          desc={
+            'Vi firar fantastiska konstnärer, inspirerande konst och publicerar nyheter för innehållsskapare varje vecka.'
+          }
+        />
+      </section>
     </main>
   );
 }
