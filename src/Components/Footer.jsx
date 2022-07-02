@@ -6,6 +6,7 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="footer-links__container">
         <h2>Företagsinformation</h2>
+        <div className="footer-links__line"></div>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
@@ -16,6 +17,7 @@ export default function Footer() {
       </div>
       <div className="footer-links__container">
         <h2>Engagera dig</h2>
+        <div className="footer-links__line"></div>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
@@ -26,6 +28,7 @@ export default function Footer() {
       </div>
       <div className="footer-links__container">
         <h2>Nyheter och evenemang</h2>
+        <div className="footer-links__line"></div>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
         <Link to="/">LINK</Link>
